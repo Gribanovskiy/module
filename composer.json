@@ -1,0 +1,26 @@
+{
+  "name": "gribanovskiy/module",
+  "description": "Test description",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "B2Broker LLC",
+      "email": "support@b2broker.net"
+    }
+  ],
+  "require": {
+    "laravel/framework": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "B2B\\Module\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "B2B\\Module\\ModuleProvider"
+      ]
+    }
+  }
+}
